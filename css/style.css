@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    
+}
+/* Common */
+.button {
+    color: white;
+    background-color: #fe775a;
+    border-radius: 5px;
+    padding: 8px 8px;
+    
+}
+
+/*HEADER*/
+
+/* Nav */
+a{
+    color: #33475b;
+}
+
+.nav-top {
+    background-color: #f4f9fd;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-bottom: 1px solid #33475b;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col {
+    float: left;
+}
+
+.two-col .col {
+    width: 50%;    
+}
+
+
+header .menu {
+    list-style-type: none;
+}
+
+header .menu li {
+    display: inline-block;    
+    line-height: 60px;
+}
+
+header .menu a {    
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+
+.menu span {
+    padding-left: 10px;
+    padding-right: 13px;    
+}
+
+.col-right .menu {
+    text-align: right;
+    
+}
+
+.col-right .menu li {
+    padding-right: 15px;
+}
+
+.col-right .menu .login {
+    color: #fe775a;
+    border-radius: 5px;
+    padding: 8px 8px;
+    border: 1px solid #fe775a;
+}
