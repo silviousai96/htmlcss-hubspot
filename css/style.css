@@ -1,28 +1,47 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+}
+
+/* COMMON */
+.button {
+    display: inline-block;
+    color: white;
+    background-color: #fe775a;
+    border-radius: 5px;
+    padding: 20px 35px;
+    text-decoration: none;
+}
+
 body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     
 }
-/* Common */
-.button {
-    color: white;
-    background-color: #fe775a;
-    border-radius: 5px;
-    padding: 8px 8px;
-    
+
+a{
+    color: #33475b;
+}
+/* Clearfix and cols generiche */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col {
+    float: left;
 }
 
 /*HEADER*/
 
 /* Nav */
-a{
-    color: #33475b;
-}
+
 
 .nav-top {
     background-color: #f4f9fd;
@@ -36,14 +55,6 @@ a{
     margin: 0 auto;
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.col {
-    float: left;
-}
 
 .two-col .col {
     width: 50%;    
@@ -85,3 +96,66 @@ header .menu a {
     padding: 8px 8px;
     border: 1px solid #fe775a;
 }
+
+.nav-top .button {
+    color: white;
+    background-color: #fe775a;
+    border-radius: 5px;
+    padding: 8px 8px;
+}
+
+.nav-bottom {    
+    padding-bottom: 8px;
+}
+
+.nav-bottom .col-right {
+    padding-top: 5px;
+}
+
+.col-logo {
+    padding-top: 20px;    
+}
+
+.col-logo img {
+    width: 20%;
+}
+/* jumbotron */
+
+.jumbotron {
+    height: 570px;      
+    background-color: #fff4ef; 
+    color: #fef6ef;  
+    background-image: url("../img/jumbotron.png");
+    background-size: cover;    
+    
+}
+
+.j-text {
+    width: 50%;
+    color: #33475b;   
+    padding-top: 50px; 
+}
+
+.j-text h1 {
+    font-size: 50px;
+    font-weight: 800px;
+}
+
+.j-text p {
+    padding: 20px 0 ;
+    line-height: 25px;
+}
+
+.j-text .button {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.j-text h3 {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+
+
+
