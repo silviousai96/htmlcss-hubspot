@@ -19,6 +19,10 @@ img {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
 body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     color: #33475b ;
@@ -48,6 +52,13 @@ a{
     width: 50%;    
 }
 
+/* layout a tre colonne */
+.three-col .col {
+    width: 30%;
+}
+.three-col .col:nth-child(2) {
+    margin: 0 5%;
+}
 
 /* Clearfix and cols generiche */
 
@@ -71,12 +82,6 @@ a{
     padding-top: 5px;
     border-bottom: 1px solid #33475b;
 }
-
-
-
-
-
-
 
 header .menu {
     list-style-type: none;
@@ -190,6 +195,7 @@ header .menu a {
 
 .plans-offer {
     background-color: #f4f9fd;
+    padding-bottom: 40px;
 }
 
 .plans-offer .po-descr {
@@ -197,7 +203,7 @@ header .menu a {
 }
 
 .plans-offer .po-descr img {
-    height: 170px;
+    height: 150px;
     width: auto;        
 }
 .po-descr h2 {
@@ -213,7 +219,8 @@ header .menu a {
 
 .free-hub {
     background-color: white;
-    
+    margin-bottom: 40px;
+    border-radius: 5px;    
 }
 
 .two-col .free-left {
@@ -232,6 +239,8 @@ header .menu a {
 .plans-offer img {
     height: 100px;
     width: auto;
+    margin-bottom: 10px;
+    
 }
 
 .two-col .free-right p {
@@ -256,11 +265,52 @@ header .menu a {
     display: inline-block;    
     padding-top: 20px;
     padding-bottom: 10px;
+    padding-right: 10px;
 }
-
+.free-right ul li i {    
+    padding-right: 10px;
+}
 
 
 .check {
-    color: tomato;
-    
+    color: #fe775a;  
+    padding-right: 10px;
 }
+
+
+.divider{
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid #33475b;;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+.col-offer {
+    background-color: white;
+    border-radius: 5px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;  
+      
+}
+
+.col-offer h2 {
+    padding-bottom: 25px;
+}
+
+.col-offer p {
+    line-height: 25px;
+}
+
+.col-offer ul {
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.col-offer h3 {
+    padding-bottom: 20px;
+}
+
