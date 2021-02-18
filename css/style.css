@@ -48,16 +48,25 @@ a{
     text-align: center;
 }
 /*layout a due colonne*/
+
 .two-col .col {
     width: 50%;    
 }
 
 /* layout a tre colonne */
+
 .three-col .col {
     width: 30%;
 }
+
 .three-col .col:nth-child(2) {
     margin: 0 5%;
+}
+
+/* layout a quattro colonne */
+
+.four-col .col {
+    width: 25%;
 }
 
 /* Clearfix and cols generiche */
@@ -314,3 +323,50 @@ header .menu a {
     padding-bottom: 20px;
 }
 
+/* awards */
+
+.awards {
+    padding-top: 35px;
+    padding-bottom: 70px;
+    background-color: #00b8a9;
+    color: white;
+    
+}
+
+.awards h2 {
+    padding-bottom: 20px;    
+}
+
+.awards p {
+    padding-bottom: 20px;    
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.four-col .b-right {            
+    border-right: 1px solid white;
+}
+
+.four-col .b-bottom {            
+    border-bottom: 1px solid white;
+}
+
+.col-awards img {
+    margin-top: 20px;    
+    height: 30px;
+    width: auto;
+}
+
+.awards h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+
+}
+
+.awards h3 span {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: normal;    
+    
+}
