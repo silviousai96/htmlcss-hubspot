@@ -308,10 +308,12 @@ header .menu a {
 
 .col-offer h2 {
     padding-bottom: 25px;
+    
 }
 
 .col-offer p {
     line-height: 25px;
+    font-weight: 600;
 }
 
 .col-offer ul {
@@ -338,7 +340,7 @@ header .menu a {
 }
 
 .awards p {
-    padding-bottom: 20px;    
+    padding-bottom: 50px;    
     line-height: 25px;
     font-size: 15px;
 }
@@ -367,6 +369,44 @@ header .menu a {
 .awards h3 span {
     display: inline-block;
     font-size: 22px;
-    font-weight: normal;    
+    font-weight: normal; 
+    vertical-align: middle;   
     
+}
+/*customers-partners */
+.customers-partners{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.customers-partners img {    
+    width: 20%;
+    vertical-align: middle;
+}
+
+.customers-partners .col-left {
+    width: 40%;
+}
+
+.customers-partners .col-right {    
+    width: 60%;
+    
+}
+
+.customers-partners .col-left h2 {
+    font-size: 45px;
+    padding-bottom: 30px;
+    padding-left: 20%;
+}
+
+.customers-partners .col-left p {
+    padding-left: 20%;
+    line-height: 25px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.customers-partners .fr-img {
+    padding-bottom: 20px;
+    padding-top: 30px; 
 }
