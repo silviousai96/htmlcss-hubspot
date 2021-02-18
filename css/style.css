@@ -21,12 +21,34 @@ img {
 
 body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #33475b ;
     
 }
 
 a{
     color: #33475b;
 }
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.container2 {
+    width: 75%;
+    margin: 0 auto;
+    padding-right: 4%;
+}
+
+.text-centered {
+    text-align: center;
+}
+/*layout a due colonne*/
+.two-col .col {
+    width: 50%;    
+}
+
+
 /* Clearfix and cols generiche */
 
 .clearfix::after {
@@ -50,15 +72,10 @@ a{
     border-bottom: 1px solid #33475b;
 }
 
-.container {
-    width: 75%;
-    margin: 0 auto;
-}
 
 
-.two-col .col {
-    width: 50%;    
-}
+
+
 
 
 header .menu {
@@ -67,7 +84,8 @@ header .menu {
 
 header .menu li {
     display: inline-block;    
-    line-height: 60px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 header .menu a {    
@@ -88,6 +106,7 @@ header .menu a {
 
 .col-right .menu li {
     padding-right: 15px;
+    padding-top: 10px;
 }
 
 .col-right .menu .login {
@@ -109,11 +128,13 @@ header .menu a {
 }
 
 .nav-bottom .col-right {
-    padding-top: 5px;
+    padding-top: 16px;    
+    padding-bottom: 9px;
 }
 
 .col-logo {
-    padding-top: 20px;    
+    padding-top: 20px; 
+    padding-bottom: 9px;   
 }
 
 .col-logo img {
@@ -133,17 +154,18 @@ header .menu a {
 .j-text {
     width: 50%;
     color: #33475b;   
-    padding-top: 50px; 
+    padding-top: 50px;
+    
 }
 
 .j-text h1 {
-    font-size: 50px;
-    font-weight: 800px;
+    font-size: 50px;    
 }
 
 .j-text p {
     padding: 20px 0 ;
     line-height: 25px;
+    font-weight: 500;
 }
 
 .j-text .button {
@@ -156,6 +178,37 @@ header .menu a {
     font-weight: normal;
 }
 
+.acqua-line {
+    height: 80px;
+    background-color: #afebe4;
+    border-top: 3px solid  #33475b;
+    border-bottom: 3px solid  #33475b;
+}
 
+/* MAIN */
+/*Plans-offer*/
+
+.plans-offer {
+    background-color: #f4f9fd;
+}
+
+.plans-offer .po-descr {
+    padding: 20px 0;
+}
+
+.plans-offer .po-descr img {
+    height: 170px;
+    width: auto;        
+}
+.po-descr h2 {
+    font-size: 35px;
+}
+
+.po-descr p {
+    line-height: 25px;
+    padding: 20px 40px;
+}
+
+/*free-hub */
 
 
