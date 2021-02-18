@@ -37,7 +37,7 @@ a{
 .container2 {
     width: 75%;
     margin: 0 auto;
-    padding-right: 4%;
+    padding-right: 2%;
 }
 
 .text-centered {
@@ -211,4 +211,56 @@ header .menu a {
 
 /*free-hub */
 
+.free-hub {
+    background-color: white;
+    
+}
 
+.two-col .free-left {
+    padding: 50px;
+    
+    width: 30%;
+    text-align: center;
+}
+
+.two-col .free-right {
+    padding: 50px 0;    
+    width: 70%;
+    line-height: 25px;
+}
+
+.plans-offer img {
+    height: 100px;
+    width: auto;
+}
+
+.two-col .free-right p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+.two-col .free-right h3 {
+    display: inline-block;
+}
+
+.free-hub .two-col .free-right .big-divider {
+    display: inline-block;
+    width: 60%;
+    border-top: 1px solid #33475b;
+    padding-top: 5px;
+    margin-left: 30px;
+}
+
+.free-right ul li {
+    display: inline-block;    
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+.check {
+    color: tomato;
+    
+}
