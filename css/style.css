@@ -456,3 +456,30 @@ header .menu a {
 .start-grow .col-right {
     text-align: right;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: #32495b;
+    color: white;
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+footer a {    
+    font-weight: normal;
+    text-decoration: none;
+    color: #dadee0;
+}
+
+.service-menu li {
+    padding-bottom: 15px ;
+}
+
+.service-menu li h4 {
+    padding-bottom: 18px ;
+}
+
+.service-menu .sm-col {
+    padding-left: 30px ;
+}
