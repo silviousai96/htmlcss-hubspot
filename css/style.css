@@ -318,7 +318,7 @@ header .menu a {
 
 .col-offer p {
     line-height: 25px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .col-offer ul {
@@ -461,8 +461,9 @@ header .menu a {
 
 footer {
     background-color: #32495b;
-    color: white;
+    color: #dadee0;
     padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 15px;
 }
 
@@ -471,15 +472,82 @@ footer a {
     text-decoration: none;
     color: #dadee0;
 }
+/* service-menu*/
+
+.service-menu {
+    font-size: 14px;
+}
 
 .service-menu li {
     padding-bottom: 15px ;
 }
 
 .service-menu li h4 {
-    padding-bottom: 18px ;
+    padding-bottom: 18px;
+    color: white ;
 }
 
 .service-menu .sm-col {
     padding-left: 30px ;
+    padding-right: 30px ;
 }
+
+.bs {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button-support {    
+    color: #33475b;
+    border-radius: 5px;
+    padding: 8px 6px;
+    background-color: #dadee0;    
+}
+
+.service-menu .icons a {
+    padding-right: 20px;
+    
+}
+
+/* language */
+
+.language {
+    text-align: center; 
+    padding-top: 40px;  
+    padding-bottom: 20px; 
+}
+
+.languages li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+/* legal */
+
+.legal {
+    padding-top: 20px;   
+}
+
+.legal .col-left {
+    text-align: left;
+}
+
+.legal .col-right {
+    text-align: right;
+}
+
+.legal img {
+    height: 50px;
+    width: 20%;
+}
+
+.legal li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+
+
+
+
+
