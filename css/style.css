@@ -84,16 +84,12 @@ a{
 
 /* Nav */
 
-
+/* nav-top */
 .nav-top {
     background-color: #f4f9fd;
     padding-bottom: 10px;
     padding-top: 5px;
     border-bottom: 1px solid #33475b;
-}
-
-header .menu {
-    list-style-type: none;
 }
 
 header .menu li {
@@ -104,8 +100,7 @@ header .menu li {
 
 header .menu a {    
     text-decoration: none;
-    font-size: 15px;
-    
+    font-size: 15px;    
 }
 
 .menu span {
@@ -142,6 +137,7 @@ header .menu a {
     padding: 8px 8px;
 }
 
+/* nav-bottom */
 .nav-bottom {    
     padding-bottom: 8px;
 }
@@ -159,32 +155,30 @@ header .menu a {
 .col-logo img {
     width: 20%;
 }
-/* jumbotron */
 
+/* jumbotron */
 .jumbotron {
     height: 570px;      
     background-color: #fff4ef; 
     color: #fef6ef;  
     background-image: url("../img/jumbotron.png");
-    background-size: cover;    
-    
+    background-size: cover;        
 }
 
 .j-text {
     width: 50%;
     color: #33475b;   
-    padding-top: 50px;
+    padding-top: 50px;    
     
 }
 
 .j-text h1 {
-    font-size: 50px;    
+    font-size: 47px;    
 }
 
 .j-text p {
     padding: 20px 0 ;
-    line-height: 25px;
-    font-weight: 500;
+    line-height: 25px;    
 }
 
 .j-text .button {
@@ -209,11 +203,7 @@ header .menu a {
 
 .plans-offer {
     background-color: #f4f9fd;
-    padding-bottom: 40px;
-}
-
-.plans-offer .po-descr {
-    padding: 20px 0;
+    padding: 40px 0;    
 }
 
 .plans-offer .po-descr img {
@@ -271,7 +261,7 @@ header .menu a {
     display: inline-block;
     width: 60%;
     border-top: 1px solid #33475b;
-    padding-top: 5px;
+    padding-top: 7px;
     margin-left: 30px;
 }
 
@@ -285,12 +275,10 @@ header .menu a {
     padding-right: 10px;
 }
 
-
 .check {
     color: #fe775a;  
     padding-right: 10px;
 }
-
 
 .divider{
     width: 100%;
@@ -304,16 +292,11 @@ header .menu a {
 .col-offer {
     background-color: white;
     border-radius: 5px; 
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 25px;
-    padding-right: 25px;  
-      
+    padding: 20px 25px;      
 }
 
 .col-offer h2 {
-    padding-bottom: 25px;
-    
+    padding-bottom: 25px;    
 }
 
 .col-offer p {
@@ -331,7 +314,6 @@ header .menu a {
 }
 
 /* awards */
-
 .awards {
     padding-top: 35px;
     padding-bottom: 70px;
@@ -369,16 +351,14 @@ header .menu a {
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 30px;
-
 }
 
 .awards h3 span {
     display: inline-block;
     font-size: 22px;
-    font-weight: normal; 
-    vertical-align: middle;   
-    
+    font-weight: normal;       
 }
+
 /*customers-partners */
 .customers-partners{
     padding-top: 50px;
@@ -395,8 +375,7 @@ header .menu a {
 }
 
 .customers-partners .col-right {    
-    width: 60%;
-    
+    width: 60%;    
 }
 
 .customers-partners .col-left h2 {
@@ -428,10 +407,8 @@ header .menu a {
     padding: 0 30px;
 }
 
-.start-grow .col-left h2 {
-    
-    font-size: 30px;
-    
+.start-grow .col-left h2 {    
+    font-size: 30px;    
 }
 
 .start-grow .col-left p {
@@ -505,8 +482,7 @@ footer a {
 }
 
 .service-menu .icons a {
-    padding-right: 20px;
-    
+    padding-right: 20px;    
 }
 
 /* language */
@@ -525,7 +501,7 @@ footer a {
 /* legal */
 
 .legal {
-    padding-top: 20px;   
+    padding-top: 30px;   
 }
 
 .legal .col-left {
@@ -536,14 +512,13 @@ footer a {
     text-align: right;
 }
 
-.legal img {
-    height: 50px;
-    width: 20%;
+.legal img {    
+    width: 18%;
 }
 
 .legal li {
     display: inline-block;
-    padding-right: 10px;
+    padding-left: 15px;
 }
 
 
